@@ -22,3 +22,5 @@ of course this would work, too:
 
 you@host:~/> find */* -name '*.py'| grep -P ... | xargs grep FooBar | less
 
+
+Pager "less" ... then "-S" chop long lines
