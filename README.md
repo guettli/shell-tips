@@ -12,3 +12,13 @@ cool prompt.
 
 
 https://stackoverflow.com/questions/56494149/bash-alternative-zu-ctrl-r
+
+
+reset at the front: if there is a lot of output, and you want to start to look at the examples from top to bottom:
+
+you@host:~/> reset; find */* -name '*.py'| grep -P ... | xargs grep FooBar
+
+of course this would work, too:
+
+you@host:~/> find */* -name '*.py'| grep -P ... | xargs grep FooBar | less
+
