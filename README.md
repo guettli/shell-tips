@@ -9,3 +9,6 @@ pgrep -au $USER -f python
 
 
 cool prompt.
+
+
+https://stackoverflow.com/questions/56494149/bash-alternative-zu-ctrl-r
