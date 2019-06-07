@@ -6,3 +6,6 @@ pgrep -au $USER -f python
 
 Kill them. Same as above, but without "-a" since you don't want to list the full command line
 pgrep -au $USER -f python
+
+
+cool prompt.
