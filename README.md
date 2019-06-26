@@ -28,3 +28,6 @@ Pager "less" ... then "-S" chop long lines
 
 git blame
 Of course PyCharm "history for selection" is much better. But sometimes, if you are on the shell "git blame" is handy.
+
+perl -pe 's#pattern#replacement#flags'
+
