@@ -1,5 +1,5 @@
 # i-like-the-command-line
-I like the command line: My favorite tips and tricks
+I like the command line: My favorite tips and tricks. I like to use it interactively. I don't write shell scripts. If some lines should persist, then I use Python code stored in a git repo.
 
 List all Python processes of the corrent user
 pgrep -au $USER -f python
