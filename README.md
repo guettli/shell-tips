@@ -54,7 +54,11 @@ I use it several times per day.
 
 Just create a `.envrc` file in a directory, and your shell will automatically load the environment variables if you `cd` into this directory.
 
+# Starship: 
 
+[Starship](https://starship.rs/) a minimal, fast, and customizable prompt for any shell.
+
+For example: Shows the git-branch on the shell prompt.
 
 
 # Related
