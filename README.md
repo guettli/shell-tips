@@ -40,6 +40,14 @@ This would work too. But often I prefer `reset`
 you@host:~/> command-with-a-lot-of-output | less
 ```
 
+# ctrl-r: Search Backward in the History
+
+Most shell users know that you can use the arrow-up key to scroll through the list of your last commands.
+
+But only some know that you can use `ctrl-r` to search through the history.
+
+I use it several times per day.
+
 # direnv
 
 [direnv](https://direnv.net/) loads and unloads environment variables depending on the current directory.
