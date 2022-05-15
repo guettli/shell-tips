@@ -58,7 +58,10 @@ Just create a `.envrc` file in a directory, and your shell will automatically lo
 
 [Starship](https://starship.rs/) a minimal, fast, and customizable prompt for any shell.
 
-For example: Shows the git-branch on the shell prompt.
+For example: 
+
+* big green prompt sign. This way you can more easily find the top of the long output a command created.
+* Shows the git-branch on the shell prompt.
 
 
 # Related
