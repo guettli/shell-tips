@@ -54,6 +54,13 @@ I use it several times per day.
 
 Just create a `.envrc` file in a directory, and your shell will automatically load the environment variables if you `cd` into this directory.
 
+Example:
+
+```
+export GITHUB_TOKEN=ghpOgSyxP....
+export KUBECONFIG=~/.kube/host-cluster-kubeconfig
+```
+
 # Starship: 
 
 [Starship](https://starship.rs/) a minimal, fast, and customizable prompt for any shell.
