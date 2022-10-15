@@ -91,6 +91,12 @@ the [Starship Kubernetes](https://starship.rs/config/#kubernetes) shell prompt:
 disabled = false
 ```
 
+This gives me a nice shell prompt, where I immediately see which cluster `kubectl` will use:
+
+```
+☸ host-cluster-admin@host-cluster in special
+❯ 
+```
 
 
 # Related
