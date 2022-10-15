@@ -63,6 +63,28 @@ For example:
 * big green prompt sign. This way you can more easily find the top of the long output a command created.
 * Shows the git-branch on the shell prompt.
 
+# Starship + direnv
+
+Both tools can be combined for maximum convenience.
+
+For example I have a directory "special", and if I enter this
+directory, I want to have a somehow special prompt in this directory.
+
+In a `special/.envrc` file I export the config for starship:
+
+```
+export STARSHIP_CONFIG=~/.config/starship.special.toml
+```
+
+"special" could be everything. For example I want to activate
+the [Starship Kubernetes](https://starship.rs/config/#kubernetes) shell prompt:
+
+```
+[kubernetes]
+disabled = false
+```
+
+
 
 # Related
 
